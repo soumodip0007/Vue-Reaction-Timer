@@ -13,11 +13,11 @@ export default {
    },
    mounted(){
         if(this.score < 350) {
-            this.rank = 'Mega Knight'
+            this.rank = 'You are pro'
         } else if (this.score < 450) {
-            this.rank = 'Knight'
+            this.rank = 'Ok! not bad'
         } else {
-            this.rank = 'Skeleton'
+            this.rank = 'lol - noob!'
         }
    }
 }
